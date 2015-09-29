@@ -16,4 +16,4 @@
 !/log/.keep
 /tmp
 
-/config/omeka.yml
+/config/omeka_sites_info.yml
