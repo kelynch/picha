@@ -15,7 +15,7 @@ gem 'coffee-rails', '~> 4.1.0'
 gem 'therubyracer', platforms: :ruby
 
 gem 'riiif'
-gem 'omeka_client'
+gem 'omeka_client', github: 'lmullen/omeka_client'
 
 # Use jquery as the JavaScript library
 gem 'jquery-rails'
