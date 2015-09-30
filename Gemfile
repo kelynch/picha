@@ -14,8 +14,8 @@ gem 'coffee-rails', '~> 4.1.0'
 # See https://github.com/rails/execjs#readme for more supported runtimes
 gem 'therubyracer', platforms: :ruby
 
-gem 'riiif'
-gem 'omeka_client', github: 'lmullen/omeka_client'
+gem 'riiif', github: 'anarchivist/riiif', branch: 'fix/http-resolver'
+gem 'omeka_client', github: 'benwbrum/omeka_client'
 
 # Use jquery as the JavaScript library
 gem 'jquery-rails'
