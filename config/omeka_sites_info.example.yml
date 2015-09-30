@@ -1,0 +1,9 @@
+---
+
+example:
+	api_key: YOUR_API_KEY_HERE
+	url: omeka.instance.domain/some-path/
+
+example2:
+api_key: DIFFERENT_API_KEY_HERE
+	url: different.omeka.domain/some-path/
