@@ -1,6 +1,14 @@
 GIT
-  remote: git://github.com/lmullen/omeka_client.git
-  revision: d8df307814a8c7b809934499dddc772c06e256c4
+  remote: git://github.com/anarchivist/riiif.git
+  revision: 2f9781f459655b4faaa9d807a807dba199389b7c
+  branch: fix/http-resolver
+  specs:
+    riiif (0.1.0)
+      rails (> 3.2.0)
+
+GIT
+  remote: git://github.com/benwbrum/omeka_client.git
+  revision: 5b205e5d301f424a216a64ebf29831559701880a
   specs:
     omeka_client (1.0.0.a)
       recursive-open-struct (~> 0.4.3)
@@ -133,8 +141,6 @@ GEM
       http-cookie (>= 1.0.2, < 2.0)
       mime-types (>= 1.16, < 3.0)
       netrc (~> 0.7)
-    riiif (0.1.0)
-      rails (> 3.2.0)
     sass (3.4.18)
     sass-rails (5.0.4)
       railties (>= 4.0.0, < 5.0)
@@ -187,7 +193,7 @@ DEPENDENCIES
   omeka_client!
   pry-rails
   rails (= 4.2.3)
-  riiif
+  riiif!
   sass-rails (~> 5.0)
   sdoc (~> 0.4.0)
   spring
