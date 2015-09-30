@@ -14,7 +14,6 @@ module OmekaUtils
 
   protected
   def self.make_client(omeka_site_alias)
-    binding.pry
     omeka_site = OmekaConfig.config[omeka_site_alias.to_sym][:url]
     omeka_api_key = OmekaConfig.config[omeka_site_alias.to_sym][:api_key]
     client = OmekaClient::Client.new(omeka_site, omeka_api_key)
