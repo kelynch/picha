@@ -2,8 +2,8 @@ require "omeka_client"
 
 module OmekaUtils
 
-  @omeka_site = OmekaConfig.config[:site_name][:url]
-  @omeka_api_key = OmekaConfig.config[:site_name][:api_key]
+  @omeka_site = OmekaConfig.config[:omeka_a11y][:url]
+  @omeka_api_key = OmekaConfig.config[:omeka_a11y][:api_key]
 
   @client = OmekaClient::Client.new(@omeka_site, @omeka_api_key)
 
