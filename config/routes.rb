@@ -1,10 +1,11 @@
 Rails.application.routes.draw do
-  get 'omeka/:sitename/:identifier', to: 'omeka_image#show_url' 
+  get 'omeka/:sitename/:identifier', to: 'omeka_image#show' 
 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
   
-  iiif_for 'riiif/image', at: '/riiif'
+  mount Riiif::Engine => '/image-service'
+
 
   # You can have the root of your site routed with "root"
   # root 'welcome#index'
