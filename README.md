@@ -20,7 +20,7 @@ TODO
 
 ## Collaborators
 
-This shim came out of the IIIF Hackathon at the University of Pennsylvania, by [anarchivist](https://github.com/anarchivist), [bibliotechy](https://github.com/bibliotechy), and [kelynch](https://github.com/kelynch).
+This shim came out of the IIIF Hackathon at the University of Pennsylvania, by [anarchivist](https://github.com/anarchivist), [AndrewGearhart](https://github.com/AndrewGearhart), [bibliotechy](https://github.com/bibliotechy), and [kelynch](https://github.com/kelynch).
 
 ## About the name
 
